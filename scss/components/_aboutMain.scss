@@ -1,0 +1,28 @@
+#main-item {
+    .bacImg {
+        background-image: url(../images/About-img/p1-title-img.jpg);
+        background-attachment: fixed;
+        background-color: #fafaf9;
+        background-size: cover;
+        height: 320px;
+    }
+    .text {
+        padding: 104px;
+        display: block;
+        h1 {
+            color: black;
+            text-align: center;
+            font-family: $second-font;
+            font-size: 50px;
+            line-height: 1.32em;
+        }
+        p {
+            color: $colorGray;
+            vertical-align: middle;
+            font-family: Lora, serif;
+            font-size: 17px;
+            font-style: italic;
+            text-transform: none;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+#flowers-experts {
+    .flower {
+        @extend %section;
+        margin-bottom: 70px;
+        .flowers-experts-title {
+            @extend %specialText;
+            text-align: center;
+            max-width: 100%;
+            p {
+                text-align: center;
+                margin: auto;
+                max-width: 620px;
+            }
+        }
+        .flowers-experts-content {
+            .card-flower{
+                .img-experts {
+                    
+                    display: flex;
+                    position: relative;
+                    justify-content: center;
+                    img {
+                        width: 205px;
+                        cursor: pointer;
+                    }
+                }
+                .body-card{
+                    @extend %body-card;
+                    margin-top: 20px;
+                }
+            }
+        }
+
+    }
+}

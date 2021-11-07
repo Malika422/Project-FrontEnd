@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#flowers-personally .flowers-personally, #flowers-experts .flower, #footer .footer {
+  width: 87%;
+  margin: auto;
+  margin-top: 70px;
+}
+
+#flowers-experts .flower .flowers-experts-title {
+  font-size: 41px;
+  font-family: "Playfair Display";
+  display: block;
+  visibility: visible;
+  line-height: 48px;
+  padding: 30px;
+  max-width: 85%;
+}
+
+#flowers-experts .flower .flowers-experts-title span {
+  color: #f34f3f;
+}
+
+#flowers-experts .flower .flowers-experts-title p {
+  white-space: normal;
+  font-size: 19px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #6d6a6a;
+  letter-spacing: 0px;
+  font-family: Lora;
+  text-align: justify;
+}
+
+#flowers-experts .flower .flowers-experts-content .card-flower .body-card, #footer .footer .col-lg-3 {
+  position: relative;
+  font-family: "Montserrat";
+  font-size: 12px;
+  line-height: 2em;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+#flowers-experts .flower .flowers-experts-content .card-flower .body-card .text-img, #footer .footer .col-lg-3 .text-img {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+#main-item .bacImg {
+  background-image: url(../images/About-img/p1-title-img.jpg);
+  background-attachment: fixed;
+  background-color: #fafaf9;
+  background-size: cover;
+  height: 320px;
+}
+
+#main-item .text {
+  padding: 104px;
+  display: block;
+}
+
+#main-item .text h1 {
+  color: black;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 50px;
+  line-height: 1.32em;
+}
+
+#main-item .text p {
+  color: #8d8d8d;
+  vertical-align: middle;
+  font-family: Lora, serif;
+  font-size: 17px;
+  font-style: italic;
+  text-transform: none;
+}
+
+#main-item .flowers-personally .flowers-personally-img {
+  cursor: pointer;
+}
+
+#flowers-personally {
+  font-family: Montserrat,sans-serif;
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 47px 0px;
+  margin-top: -1px;
+}
+
+#flowers-personally .flowers-personally .flowers-personally-img {
+  position: relative;
+  width: 95%;
+  margin: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#flowers-personally .flowers-personally .flowers-personally-img .Play {
+  background-color: white;
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  padding: 25px 27px;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: -43px;
+  margin-top: -43px;
+}
+
+#flowers-personally .flowers-personally .flowers-personally-img .Play .fa-play-circle {
+  font-size: 30px;
+  color: #f34f3f;
+  margin-left: 4px;
+}
+
+#flowers-personally .flowers-personally .flowers-personally-img img {
+  width: 591px;
+}
+
+#flowers-personally .flowers-personally .flowers-personally-img:hover img {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+#flowers-personally .personally {
+  font-size: 17px;
+  line-height: 29px;
+  margin-top: 27px;
+  font-family: "Playfair Display",serif;
+}
+
+#flowers-personally .personally span {
+  color: red;
+}
+
+#flowers-personally .personally h2 {
+  font-size: 38px;
+  line-height: 1.447em;
+}
+
+#flowers-personally .personally p {
+  color: #6d6a6a;
+}
+
+#flowers-experts .flower {
+  margin-bottom: 70px;
+}
+
+#flowers-experts .flower .flowers-experts-title {
+  text-align: center;
+  max-width: 100%;
+}
+
+#flowers-experts .flower .flowers-experts-title p {
+  max-width: 620px;
+  text-align: center;
+  margin: auto;
+}
+
+#flowers-experts .flower .flowers-experts-content .card-flower .img-experts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#flowers-experts .flower .flowers-experts-content .card-flower .img-experts img {
+  width: 205px;
+  cursor: pointer;
+}
+
+#flowers-experts .flower .flowers-experts-content .card-flower .body-card {
+  margin-top: 20px;
+}
+
+#footer {
+  background-color: #eceae1;
+}
+
+#footer .footer {
+  padding: 30px;
+  padding-top: 30px;
+}
+
+#footer .footer .col-lg-3 {
+  text-align: left;
+}
+
+#footer .footer .col-lg-3 ul {
+  list-style: none;
+  padding-bottom: 75px;
+}
+
+#footer .footer .col-lg-3 ul .footer-list {
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+#footer .footer .col-lg-3 ul .footer-list a {
+  color: #8d8d8d !important;
+  text-decoration: none;
+}
+
+#footer .footer .col-lg-3 ul .footer-list a:hover {
+  color: #f34f3f !important;
+}
+
+#footer .footer .footer-instagram-facebook {
+  color: #8d8d8d !important;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  font-family: "Montserrat";
+  font-size: 12px;
+  margin-left: 200px;
+}
+
+#footer .footer .footer-instagram-facebook a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7) !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#footer .footer .footer-instagram-facebook a:hover {
+  color: #f34f3f !important;
+}
+
+#footer .footer .footer-interactive {
+  color: #8d8d8d !important;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+
+#footer .footer .footer-interactive a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7) !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#footer .footer .footer-interactive a:hover {
+  color: #f34f3f !important;
+}
+
+#footer .footer .footer-img {
+  text-align: center;
+}
